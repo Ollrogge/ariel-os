@@ -6,6 +6,7 @@ apps:
       - esp
       - nrf52840dk
       - nrf5340dk
+      - thingy53
       - particle-xenon
       - rp
       - st-nucleo-f401re

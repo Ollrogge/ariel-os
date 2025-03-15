@@ -214,6 +214,7 @@ dependencies = [
  "st-nucleo-h755zi-q",
  "st-nucleo-wb55",
  "st-nucleo-wba55",
+ "thingy53",
 ]
 
 [[package]]
@@ -5521,6 +5522,16 @@ dependencies = [
  "ariel-os",
  "ariel-os-boards",
  "embedded-test",
+]
+
+[[package]]
+name = "thingy53"
+version = "0.1.0"
+dependencies = [
+ "ariel-os-debug",
+ "cortex-m",
+ "cortex-m-rt",
+ "nrf5340",
 ]
 
 [[package]]

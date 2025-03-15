@@ -26,6 +26,8 @@ cfg_if! {
         pub use nrf52840_mdk as board;
     } else if #[cfg(feature = "nrf5340dk")] {
         pub use nrf5340dk as board;
+    } else if #[cfg(feature = "thingy53")] {
+        pub use thingy53 as board;
     } else if #[cfg(feature = "nucleo-f401re")] {
         pub use nucleo_f401re as board;
     } else if #[cfg(feature = "particle-xenon")] {
