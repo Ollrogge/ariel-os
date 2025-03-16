@@ -1,0 +1,13 @@
+[package]
+name = "pwr-mgmt"
+version = "0.1.0"
+license.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+ariel-os = { path = "../../src/ariel-os", features = ["time", "pwr-mgmt"] }
+ariel-os-boards = { path = "../../src/ariel-os-boards" }
+
+[lints]
+workspace = true

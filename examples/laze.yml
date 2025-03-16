@@ -17,6 +17,7 @@ subdirs:
   - http-server
   - log
   - minimal
+  - pwr-mgmt
   - random
   - storage
   - tcp-echo
