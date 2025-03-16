@@ -79,6 +79,7 @@ jobs:
                   mdns,
                   net,
                   no-boards,
+                  pwr-mgmt,
                   random,
                   ariel-os-coap/doc,
                   spi,

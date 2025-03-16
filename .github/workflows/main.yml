@@ -134,6 +134,7 @@ jobs:
             -p ariel-os-hal
             -p ariel-os-identity
             -p ariel-os-macros
+            -p ariel-os-pm
             -p ariel-os-random
             -p ariel-os-rt
             -p ariel-os-storage
@@ -259,6 +260,7 @@ jobs:
                     mdns,
                     net,
                     no-boards,
+                    pwr-mgmt
                     random,
                     ariel-os-coap/doc,
                     spi,
