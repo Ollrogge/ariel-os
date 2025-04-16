@@ -13,6 +13,7 @@ apps:
       - particle-xenon
       - rp
       - st-nucleo-f401re
+      - st-nucleo-f411re
       - st-nucleo-h755zi-q
       - st-nucleo-wb55
       - stm32u083c-dk

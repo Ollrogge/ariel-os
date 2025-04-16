@@ -379,6 +379,15 @@ boards:
       wifi: not_available
       ethernet_over_usb: not_available
 
+  st-nucleo-f411re:
+    name: ST NUCLEO-F411RE
+    url: https://web.archive.org/web/20250311221905/https://www.st.com/en/evaluation-tools/nucleo-f411re.html
+    chip: stm32f411re
+    support:
+      user_usb: not_available
+      wifi: not_available
+      ethernet_over_usb: not_available
+
   st-nucleo-h755zi-q:
     name: ST NUCLEO-H755ZI-Q
     url: https://web.archive.org/web/20240524105149/https://www.st.com/en/evaluation-tools/nucleo-h755zi-q.html
