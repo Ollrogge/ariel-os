@@ -10,3 +10,7 @@ workspace = true
 [dependencies]
 ariel-os = { path = "../../src/ariel-os", features = ["time"] }
 ariel-os-boards = { path = "../../src/ariel-os-boards" }
+
+[target.'cfg(context = "nrf53")'.dependencies]
+embassy-nrf = { workspace = true}
+cfg-if = { workspace = true }

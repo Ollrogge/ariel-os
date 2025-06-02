@@ -18,6 +18,9 @@ ariel_os::hal::define_peripherals!(LedPeripherals { led: P0_13 });
 #[cfg(context = "nrf5340dk")]
 ariel_os::hal::define_peripherals!(LedPeripherals { led: P0_28 });
 
+#[cfg(context = "nrf5340dk-net")]
+ariel_os::hal::define_peripherals!(LedPeripherals { led: P0_29 });
+
 #[cfg(context = "nrf9160dk-nrf9160")]
 ariel_os::hal::define_peripherals!(LedPeripherals { led: P0_02 });
 
